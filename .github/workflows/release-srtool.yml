@@ -40,7 +40,7 @@ jobs:
           PACKAGE: hydration-node
         with:
           chain: ${{ matrix.chain }}
-          runtime_dir: ${{ github.repository }}/runtime/adapters
+          runtime_dir: ${{ github.repository }}/target/release/wbuild/hydradx-runtime/
 
       - name: Summary
         run: |
