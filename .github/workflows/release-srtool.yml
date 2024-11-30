@@ -39,7 +39,7 @@ jobs:
           BUILD_OPTS: ${{ inputs.build_opts }}
         with:
           chain: ${{ matrix.chain }}
-          runtime_dir: ${{ github.repository }}/runtime/hydradx
+          runtime_dir: ${{ github.repository }}/runtime/adapters
 
       - name: Summary
         run: |
